@@ -41,6 +41,14 @@ h1 {
   opacity: 0.5;
 }
 
+.header-nav > li:first-child a {
+  color: #ed6e2f;
+}
+
+.header-nav > li:first-child a:hover {
+  color: #000;
+}
+
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
