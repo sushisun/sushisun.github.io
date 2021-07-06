@@ -21,6 +21,11 @@ h2 ~ p {
 }
 
 /* HEADER STYLES */
+.header {
+  background-color: #000;
+  color: #fff;
+}
+
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -32,16 +37,31 @@ h2 ~ p {
 }
 
 .header-nav > li ~ li {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
 
 .header-nav a {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+
+.header-logo img {
+  width: 4.3vh;
 }
 
 .header-nav a:hover,
@@ -59,7 +79,7 @@ h2 ~ p {
 }
 
 .header-nav > li:first-child a:hover {
-  color: #000;
+  color: #fff;
 }
 
 /* HERO STYLES */
