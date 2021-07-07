@@ -38,7 +38,7 @@ p {
 }
 
 .content-container {
-  flex-grow: 1;
+  flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
 }
@@ -299,16 +299,14 @@ p {
 
 /* CALLOUT STYLES */
 .callout-title {
-  font-size: 5.75vw;
   flex: 1;
-  flex-basis: 0;
+  font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 
 .callout-copy {
+  flex: 0 0 45em;
   font-size: 0.8rem;
-  flex-shrink: 0;
-  flex-basis: 45em;
   padding: 0 3vw;
 }
