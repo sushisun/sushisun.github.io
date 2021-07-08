@@ -545,3 +545,16 @@ p {
 .col-two .col-content {
   flex: 1;
 }
+
+/* MOBILE STYLES */
+
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .post-aside {
+    display: none;
+  }
+}
