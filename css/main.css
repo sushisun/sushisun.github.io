@@ -705,6 +705,10 @@ p {
     display: none;
   }
 
+  .post-content img {
+    width: 100%;  
+  }
+
   .blog-recent {
     display: none;
   }
